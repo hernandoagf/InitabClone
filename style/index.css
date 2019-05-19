@@ -1,0 +1,91 @@
+:root {
+    --blue: #8be9fd;
+    --green: #50fa7b;
+    --orange: #ffb86c;
+    --pink: #ff79c6;
+    --purple: #bd93f9;
+    --white: #f8f8f2;
+    --gold: #e6db74;
+    --yellow: #f1fa86;
+    --darker-blue: #66d9ef;
+    --dark-purple: #6272a4;
+    --gray: #999999;
+    --bg-color-nav: #44475a;
+    --bg-color-app: #282a36;
+}
+
+body {
+    margin: 0;
+    color: white;
+}
+
+#app {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.navBar {
+    background-color: var(--bg-color-nav);
+    font-family: 'Inconsolata', monospace;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu .fas, .menu .fab {
+    padding: 4px;
+    border-radius: 2px;
+    color: var(--bg-color-nav);
+    font-size: 14px;
+}
+
+.menu-icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-settings > .menu-icon {
+    background-color: var(--blue);
+}
+
+#menu-gists > .menu-icon {
+    background-color: var(--green);
+}
+
+#menu-stack > .menu-icon {
+    background-color: var(--orange);
+}
+
+#menu-trending > .menu-icon {
+    background-color: var(--pink);
+}
+
+#menu-scratch > .menu-icon {
+    background-color: var(--purple);
+}
+
+#menu-playground > .menu-icon {
+    background-color: var(--white);
+}
+
+#menu-help > .menu-icon {
+    background-color: var(--gold);
+}
+
+.main {
+    background-color: var(--bg-color-app);
+
+}

@@ -45,7 +45,8 @@ body {
 .menu > div {
     display: flex;
     align-items: center;
-    font-size: 14px;
+    font-size: 13px;
+    margin-bottom: 1rem;
 }
 
 .menu .fas, .menu .fab {
@@ -69,28 +70,100 @@ body {
     background-color: var(--blue);
 }
 
+#menu-settings span {
+    color: var(--blue);
+}
+
 #menu-gists > .menu-icon {
     background-color: var(--green);
+}
+
+#menu-gists span {
+    color: var(--green);
 }
 
 #menu-stack > .menu-icon {
     background-color: var(--orange);
 }
 
+#menu-stack span {
+    color: var(--orange);
+}
+
 #menu-trending > .menu-icon {
     background-color: var(--pink);
+}
+
+#menu-trending span {
+    color: var(--pink);
 }
 
 #menu-scratch > .menu-icon {
     background-color: var(--purple);
 }
 
+#menu-scratch span {
+    color: var(--purple);
+}
+
 #menu-playground > .menu-icon {
     background-color: var(--white);
 }
 
+#menu-playground span {
+    color: var(--white);
+}
+
 #menu-help > .menu-icon {
     background-color: var(--gold);
+}
+
+#menu-help span {
+    color: var(--gold);
+}
+
+.menu-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo-container > img {
+    width: 100px;
+    height: auto;
+}
+
+#social-icons {
+    display: flex;
+    margin: 0.7rem 0 1rem 0;
+}
+
+#social-icons div {
+    padding: 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    margin: 0 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#social-icons div:nth-child(1) {
+    background-color: rgb(0, 127, 177);
+}
+
+#social-icons div:nth-child(2) {
+    background-color: rgb(0, 172, 237);
+}
+
+#social-icons div:nth-child(3) {
+    background-color: rgb(95, 153, 207);
+}
+
+#social-icons i {
+    color: white;
+    font-size: 14px;
 }
 
 .main {
